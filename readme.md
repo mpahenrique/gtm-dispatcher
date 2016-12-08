@@ -17,7 +17,7 @@
 
 ### HTML: 
 
-```
+```html
 <button data-gd 
         data-gd-type="click" 
         data-gd-category="HomeButtons" 
@@ -31,25 +31,25 @@
 #### Getting/Loading gtm-dispatcher script:
 ##### Using like a node_module [server-side building (Browserify, etc)]
 ###### IN NODE_MODULES ROOT FOLDER:
-```
+```sh
 $ npm install http://git.agenciaclick.com.br/interno/gtm-dispatcher --save
 ```
 
 ##### Using like a library
 ###### IN YOUR HTML:
-```
+```html
 <script src="download/gtm/dispatcher/here.js"></script>
 ``` 
 <br>
 #### Running gtm-dispatcher script:
 ##### Using like a node_module [server-side building (Browserify, etc)]
 ###### IN YOUR JAVASCRIPT:
-```
+```js
 require('gtm-dispatcher');
 ```
 
 ##### Using like a library
 ###### IN YOUR JAVASCRIPT:
-```
-window.onload = () => { gtmDispatcher(); }
+```js
+window.onload = gtmDispatcher;
 ```
