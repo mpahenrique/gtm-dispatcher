@@ -32,7 +32,7 @@
 ##### Using like a node_module [server-side building (Browserify, etc)]
 ###### IN NODE_MODULES ROOT FOLDER:
 ```sh
-$ npm install http://git.agenciaclick.com.br/interno/gtm-dispatcher --save
+$ npm install https://github.com/mpahenrique/gtm-dispatcher --save
 ```
 
 ##### Using like a library
