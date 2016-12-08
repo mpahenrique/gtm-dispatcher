@@ -1,0 +1,21 @@
+{
+  "name": "gtm-dispatcher",
+  "version": "1.0.0",
+  "description": "Google Tag Manager event dispatcher",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mpahenrique/gtm-dispatcher.git"
+  },
+  "author": [
+    { 
+      "name" : "Henrique Matheus Pereira Aveiro",
+      "github" : "https://github.com/mpahenrique"
+    },
+    { 
+      "name" : "João Rafael Gouveia Lazarini",
+      "github" : "https://github.com/rlazarini"
+    }
+  ],
+  "license": "BSD-2-Clause",
+}
