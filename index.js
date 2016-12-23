@@ -54,6 +54,6 @@ function gtmDispatcher (dataLayer){
     }
 }
 
-if(module && module.exports) {
+if(this.module && this.module.exports){
     module.exports = gtmDispatcher();
 }
